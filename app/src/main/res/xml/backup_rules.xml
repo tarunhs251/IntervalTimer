@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+    Sample backup rules file; uncomment and customize as needed.
+    See https://developer.android.com/guide/topics/data/keyvaluebackup for details.
+    -->
+    <include domain="sharedpref" path="." />
+    <exclude domain="sharedpref" path="device.xml" />
+    <include domain="database" path="." />
+    <exclude domain="database" path="ignore_me.db" />
+    <include domain="file" path="." />
+    <exclude domain="file" path="exclude_me" />
+    <exclude domain="file" path="cache" />
+</full-backup-content>

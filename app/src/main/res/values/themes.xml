@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme for Material 3 -->
+    <style name="Theme.IntervalTimer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <!-- Navigation bar background (Android 5.0+) -->
+        <item name="android:navigationBarColor">@color/background</item>
+        <!-- Status bar text color (Android 6.0+) -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

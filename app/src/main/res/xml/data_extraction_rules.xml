@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!--
+    Sample data extraction rules file; uncomment and customize as needed.
+    See https://developer.android.com/about/versions/12/behavior-changes-12#backup-restrictions for details.
+    -->
+    <domain-config>
+        <domain includeSubdomains="true">example.com</domain>
+        <!--
+        <exclude-domain includeSubdomains="true">example.com</exclude-domain>
+        -->
+        <skipBackupPath path="cache" />
+        <skipBackupPath path="code_cache" />
+    </domain-config>
+    <!--
+    <domain-config>
+        <domain includeSubdomains="true">example2.com</domain>
+        <skipBackupPath path="...</skipBackupPath>
+    </domain-config>
+    -->
+</data-extraction-rules>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntervalTimer</string>
+
+    <!-- Setup Screen -->
+    <string name="setup_title">Interval Timer Setup</string>
+    <string name="work_duration_label">Work Duration</string>
+    <string name="work_duration_unit">sec</string>
+    <string name="work_duration_hint">Seconds</string>
+    <string name="work_duration_description">%1$d seconds of activity</string>
+
+    <string name="rest_duration_label">Rest Duration</string>
+    <string name="rest_duration_unit">sec</string>
+    <string name="rest_duration_hint">Seconds</string>
+    <string name="rest_duration_description">%1$d seconds between sets</string>
+
+    <string name="number_of_sets_label">Number of Sets</string>
+    <string name="number_of_sets_unit">sets</string>
+    <string name="number_of_sets_hint">Sets</string>
+    <string name="number_of_sets_description">%1$d complete cycles</string>
+
+    <string name="alarm_sound_label">Alarm Sound</string>
+    <string name="alarm_sound_buzzer">System Buzzer</string>
+    <string name="alarm_sound_custom">Custom Audio File</string>
+    <string name="alarm_sound_pick_button">Pick Sound</string>
+    <string name="alarm_sound_selected">✓ Sound selected</string>
+    <string name="alarm_sound_not_selected">No sound selected</string>
+
+    <string name="session_summary_title">Session Summary</string>
+    <string name="session_summary_format">%1$d sets × (%2$ds work + %3$ds rest)</string>
+    <string name="session_total_time">Total time: %1$s</string>
+
+    <string name="start_training_button">Start Training</string>
+
+    <!-- Timer Screen -->
+    <string name="work_mode">🔥 WORK 🔥</string>
+    <string name="rest_mode">😮‍💨 REST 😮‍💨</string>
+    <string name="set_counter">Set %1$d of %2$d</string>
+
+    <string name="pause_button">Pause</string>
+    <string name="resume_button">Resume</string>
+    <string name="skip_button">Skip</string>
+    <string name="finish_button">Finish</string>
+
+    <string name="session_status_title">Session Status</string>
+    <string name="session_status_sets_done">Sets Done</string>
+    <string name="session_status_sets_format">%1$d/%2$d</string>
+    <string name="session_status_status">Status</string>
+    <string name="session_status_running">Running</string>
+    <string name="session_status_paused">Paused</string>
+    <string name="session_status_current">Current</string>
+    <string name="session_status_work">Work</string>
+    <string name="session_status_rest">Rest</string>
+
+    <!-- Service Notifications -->
+    <string name="notification_title">Interval Timer - %1$s</string>
+    <string name="notification_content">%1$s • %2$s • %3$s</string>
+    <string name="notification_pause">Pause</string>
+    <string name="notification_resume">Resume</string>
+    <string name="notification_skip">Skip</string>
+    <string name="notification_finish">Finish</string>
+
+    <!-- Errors and Messages -->
+    <string name="invalid_input">Invalid input</string>
+    <string name="error_loading_sound">Could not load custom sound</string>
+    <string name="error_playing_sound">Could not play alarm sound</string>
+
+</resources>
